@@ -1,0 +1,75 @@
+body{ background-color: rgb(15, 132, 179);}
+table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    border-color: tomato;
+  }
+  th {
+    background-color: #158383;
+    color: white;
+  }
+  th,
+  td {
+    width: 150px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+  }
+  .myDiv {
+    background-image: url('pubgMobile.jpg') no-repeat;
+border: 3px outset rgb(227, 251, 6);
+text-align: center;
+margin-top: 10px;
+}
+
+.adm-name{margin-top: 140px;color: rgb(72, 255, 0);}
+.dev-email{font-style: oblique; font-size: 13px; background-color: rgb(38, 116, 19) ;;}
+
+.dev-name{font-size: unset; font-size: 13px;background-color: rgb(38, 116, 19) ;}
+.button {
+border: none;
+color: rgb(219, 9, 9);
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+
+.button1 {background-color: #0839d8; color: blue;} /* Green */
+
+h2{color: rgb(226, 226, 226);
+}
+p{color: rgb(250, 250, 250);
+  background-color: rgb(80, 1, 43);
+font-family: 'Courier New', Courier, monospace;
+font-style: oblique;
+}
+
+.submit
+{color: blue;
+background: #000;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
